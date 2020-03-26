@@ -10,7 +10,7 @@ Link do repositório da Rocketseat:
 <ul>
   <li>
     <h4>instale as dependências </h4>
-    <p>execute o comando `npm i` ou `yarn` para instalar as dependecias no diretorio `backend` e no `frontend` </p>
+    execute o comando `npm i` ou `yarn` para instalar as dependecias no diretorio `backend` e no `frontend`. 
   </li>
   <li>
     <h4>levante o servidor </h4>
