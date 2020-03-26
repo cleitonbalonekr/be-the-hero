@@ -5,9 +5,17 @@ O Be The Hero é um projeto para auxiliar ONGs na arrecadação de dinheiro para
 Link do repositório da Rocketseat: 
 
 
-** Para rodar o projeto
-- intale as dependências:
- execute o comando `npm i` ou `yarn` para instalar as dependecias no diretorio `backend` e no `frontend`
+### Para rodar o projeto:
+
+<ul>
+  <li>
+    <h3>intale as dependências: </h3><br>
+    <p>execute o comando `npm i` ou `yarn` para instalar as dependecias no diretorio `backend` e no `frontend` </p>
+
+  </li>
+</ul>
+
+ 
 - levante o servidor:
  No diretorio `backend` execute o comando `npm start` ou `yarn start`, também pode-se usar o comando `node src/index.js`, assim você estará usando node, não o nodemon
 - inicie o react:
