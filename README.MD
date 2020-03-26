@@ -9,15 +9,18 @@ Link do repositório da Rocketseat:
 
 <ul>
   <li>
-    <h3>intale as dependências: </h3><br>
+    <h4>instale as dependências </h4>
     <p>execute o comando `npm i` ou `yarn` para instalar as dependecias no diretorio `backend` e no `frontend` </p>
-
+  </li>
+  <li>
+    <h4>levante o servidor </h4>
+    <p>No diretorio `backend` execute o comando `npm start` ou `yarn start`, também pode-se usar o comando `node src/index.js`, assim você estará usando node, não o nodemon </p>
+  </li>
+  <li>
+    <h4>inicie o react </h4>
+    <p>No diretorio `frontend` execute o comando `npm start` ou `yarn start`, ao executar o comando vai abrir uma aba no seu navegador com a interface, caso não abra, digite `localhost:3000` no seu navegador. </p>
   </li>
 </ul>
 
  
-- levante o servidor:
- No diretorio `backend` execute o comando `npm start` ou `yarn start`, também pode-se usar o comando `node src/index.js`, assim você estará usando node, não o nodemon
-- inicie o react:
- No diretorio `frontend` execute o comando `npm start` ou `yarn start`, ao executar o comando vai abrir uma aba no seu navegador com a interface, caso não abra, digite `localhost:3000` no seu navegador.
 
