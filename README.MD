@@ -2,7 +2,7 @@
 
 O Be The Hero é um projeto para auxiliar ONGs na arrecadação de dinheiro para determinados casos, a ONG pode cadastrar o caso na plataforma, uma pessoa pode ver esse caso no app  e entrar em contato com a ONG para ajudar no caso. Projeto desenvolvido na semana Oministack 11.0 da Rocketseat.
 
-Link do repositório da Rocketseat: <a> link</a>
+
 
 ### Funcionalidades:
 - Cadastro de ONGs.
