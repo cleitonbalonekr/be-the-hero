@@ -10,7 +10,7 @@ Link do repositório da Rocketseat: <a> link</a>
 - Cadastro de casos.
 - Listagem de todos os casos.
 - Entrar em contato.
-- Aplicação real time.
+
 
 ### Para rodar o projeto:
 
