@@ -12,7 +12,7 @@ export default function Detail() {
   const route = useRoute();
 
   const incident = route.params.incident;
-  const message = `Olá ${incident.name} gostaria de ajudar no caso "${incident.title}" com valor de ${incident.value}`;
+  const message = `Olá ${incident.name} gostaria de ajudar no caso "${incident.title}" com valor de ${Intl.NumberFormat('pt-br',{style: 'currency', currency: 'BRL'}).format(incident.incidentValue)}`;
 
   function navigateBack(){
     navigation.goBack();
@@ -48,7 +48,12 @@ export default function Detail() {
         <Text style={styles.incidentValue}>{incident.title} </Text>
 
         <Text style={styles.incidentProperty}>VALOR: </Text>
-        <Text style={styles.incidentValue}>{incident.value} </Text>
+        <Text style={styles.incidentValue}>{{Intl.NumberFormat('pt-br',
+              {
+                style: 'currency',
+                currency: 'BRL'
+              })
+              .format(incident.incidentValue)}} </Text>
 
       </View>
       <View style={styles.contactBox}>

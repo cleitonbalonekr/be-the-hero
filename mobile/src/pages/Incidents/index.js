@@ -29,8 +29,8 @@ export default function Incidents() {
 
     setLoading(true)
 
-    const response = await api.get('incidents',{
-      params:{ page },
+    const response = await api.get('incidents', {
+      params: { page },
     });
     setIncidents([...incidents, ...response.data]);
     setTotal(response.headers['x-total-count']);
@@ -69,7 +69,12 @@ export default function Incidents() {
             <Text style={styles.incidentValue}>{incident.title}</Text>
 
             <Text style={styles.incidentProperty}>VALOR: </Text>
-            <Text style={styles.incidentValue}>{incident.value} </Text>
+            <Text style={styles.incidentValue}>{Intl.NumberFormat('pt-br',
+              {
+                style: 'currency',
+                currency: 'BRL'
+              })
+              .format(incident.incidentValue)} </Text>
 
             <TouchableOpacity
               style={styles.detailsButton}
