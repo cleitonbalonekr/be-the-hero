@@ -15,11 +15,13 @@ Link do repositório da Rocketseat: <a> link</a>
 ### Para rodar o projeto:
 
 ##### instale as dependências
- execute o comando `npm i` ou `yarn` para instalar as dependecias no diretorio `backend` e no `frontend`
+ execute o comando `npm i` ou `yarn` para instalar as dependêcias no diretório `backend`, `frontend` e `mobile`.
 
 ##### levante o servidor
- No diretorio `backend` execute o comando `npm start` ou `yarn start`, também pode-se usar o comando `node src/index.js`, assim você estará usando node, não o nodemon
+ No diretorio `backend` execute o comando `npm start` ou `yarn start`, também pode-se usar o comando `node src/index.js`, assim você estará usando node, não o nodemon.
 
 #### inicie o react
  No diretorio `frontend` execute o comando `npm start` ou `yarn start`, ao executar o comando vai abrir uma aba no seu navegador com a interface, caso não abra, digite `localhost:3000` no seu navegador.
 
+#### inicie o expo
+  No mobile foi utilizado o expo, caso não tenha execute o comando `npm install -g expo-cli`, depois disso, na pasta `mobile` execute o comando `npm start` ou `yarn start`.
